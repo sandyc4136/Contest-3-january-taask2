@@ -1,0 +1,206 @@
+body{
+    font-family: 'Inter';
+    font-style: normal;
+    }
+.grid-container{
+    display: grid;
+    height: 95vh;
+    width: 95vw;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+}
+
+.name-div{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    gap: 8px;
+}
+.name-div span{
+    display: flex;
+    align-items: center;
+    color: red;
+}
+.div1-left input{
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #808080;
+}
+.select1{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    gap: 10px;
+}
+.select1 span{
+    display: flex;
+    align-items: center;
+}
+.div2-left select{
+    width: 606px;
+    height: 60px;
+    border-radius: 10px;
+}
+select{
+    color: gray;
+    font-size: 1.3em;
+    font-family: 'Inter';
+    font-style: normal; 
+}
+.text-1{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    gap: 10px;
+}
+.text-1 span{
+    display: flex;
+    align-items: center;
+}
+.div3-left textarea{
+    width: 600px;
+    height: 150px;
+    resize: vertical;
+    border-radius: 10px;
+}
+.add-on{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    gap: 10px; 
+}
+.add-on span{
+    display: flex;
+    align-items: center;
+    color: red; 
+}
+.add-on-input{
+    width: 606px;
+    height: 54px;
+    border: 1px solid #808080;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row; 
+    font-size: 20px;
+}
+ .add-on-input span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 20%;
+    color: gray;
+    font-size: 1em;
+    font-family: 'Inter';
+    font-style: normal;
+} 
+.add-on-input input{
+    position: relative;
+    width: 50%;
+}
+.add-on-input button{
+    height: 100%;
+    position: relative;
+    width: 30%;
+    border: 1px solid #808080;
+    border-radius: 10px;
+    color: gray;
+    font-size: 1em;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.search-div{
+    width: 606px;
+    height: 54px;
+    border: 1px solid #808080;
+    border-radius: 10px;
+    margin-top: 93px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.search-div span{
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin-left: 20px;
+}
+.search-div input{
+    height: 95%;
+    width: 90%;
+}
+input::placeholder {
+    color: gray;
+    font-size: 1.5em;
+    font-family: 'Inter';
+    font-style: normal;
+}
+textarea::placeholder {
+    color: gray;
+    font-size: 1.7em;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.inc-dec{
+    width: 143px;
+    height: 61px;
+    border: 1px solid #808080;
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 19px;
+}
+.inc-dec span{
+    display: flex;
+    align-items: center;
+}
+.checkbox{
+    margin-top: 55px;
+    font-size: 20px;
+}
+.radio{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.switch{
+    margin-top: 30px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.shape{
+    width: 50px;
+    height: 25px;
+    border: 0.5px solid #808080;
+    border-radius: 25px;
+    background-color: #e9e3e3;
+}
+.white-circle{
+    width: 25px;
+    height: 24.5px;
+    border: 0.1px solid #808080;
+    border-radius: 50%;
+    background-color: white; 
+}
+
+input[type="text"]{
+    padding-left: 20px;
+}
+
+input[type="option"]{
+    padding-left: 20px;
+}
+
+.text-area1{
+    padding-left: 26px;
+    padding-top: 16px;
+}
+
+#option{
+    padding-left: 20px;
+    
+}
